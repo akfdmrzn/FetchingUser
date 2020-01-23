@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ImageViewer.swift (3.0.10):
+    - SDWebImage
+  - SDWebImage (5.5.0):
+    - SDWebImage/Core (= 5.5.0)
+  - SDWebImage/Core (5.5.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageViewer.swift (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageViewer.swift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ImageViewer.swift: 9bff2405a5c0a523092a8c031a7bf80c1433e7f4
+  SDWebImage: 86589f0d47a7de15827640c71813e23fd428965c
+
+PODFILE CHECKSUM: 962757670732b40a0f31396b380f7a688349cab1
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module Pods_FetchUser_FetchUserUITests {
+  umbrella header "Pods-FetchUser-FetchUserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
