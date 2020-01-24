@@ -8,3 +8,18 @@ cache: cocoapods
 
 before_install:
   - pod install
+# jobs and stages to run
+jobs:
+  include:
+    - stage: "Code validation"
+      name: "Code validation"
+      script:
+        - bundle exec danger
+    - stage: "Test"
+      name: "Unit tests"
+      script:
+        - bundle exec fastlane FetchUserTests
+    - stage: "Test"
+      name: "UI tests"
+      script:
+        - bundle exec fastlane FetchUserUITests
