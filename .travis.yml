@@ -1,5 +1,5 @@
-language: objective-c
-osx_image: xcode9
+language: swift
+osx_image: xcode11.3
 notifications:
   email: false
 branches:
@@ -11,9 +11,9 @@ before_install:
 
 jobs:
   include:
-    - stage: Swiflint
+    - stage: FetchUser
       script:
-        - ./Pods/SwiftLint/swiftlint --reporter junit
+        - ./Pods/FetchUser/swiftlint --reporter junit
 
     - stage: XCTest
       script:
