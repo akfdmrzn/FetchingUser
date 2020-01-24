@@ -5,21 +5,18 @@ xcode_scheme: FetchUser
 xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone 8
 podfile: FetchUser/Podfile
 cache: cocoapods
+branches:
+  only:
+    - master
 
 before_install:
   - pod install
-# jobs and stages to run
+  - gem install fastlane --no-ri --no-rdoc --no-document
 jobs:
   include:
-    - stage: "Code validation"
-      name: "Code validation"
+    - stage: XCTest
       script:
-        - bundle exec danger
-    - stage: "Test"
-      name: "Unit tests"
+        - fastlane scan -s FetchUserTests
+    - stage: XCUITest
       script:
-        - bundle exec fastlane FetchUserTests
-    - stage: "Test"
-      name: "UI tests"
-      script:
-        - bundle exec fastlane FetchUserUITests
+        - fastlane scan -s FetchUserUITests
