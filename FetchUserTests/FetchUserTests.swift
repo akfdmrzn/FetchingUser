@@ -24,10 +24,10 @@ class FetchUserTests: XCTestCase {
         let authenticationExpectation = expectation(description: "fetchuser")
         var list : [UserModel] = []
         
-        NetworkClient.performRequest([UserModel].self, router: APIRouter.getUser, success: { [weak self] (models) in
+        NetworkClient.performRequest([UserModel].self, router: APIRouter.getUser, success: { [] (models) in
             list = models
             authenticationExpectation.fulfill()
-                  }) { [weak self] (error) in
+                  }) { [] (error) in
                     print(error)
                }
 
@@ -44,10 +44,10 @@ class FetchUserTests: XCTestCase {
         let authenticationExpectation = expectation(description: "returnUserList")
         var list : [UserModel] = []
         
-        NetworkClient.performRequest([UserModel].self, router: APIRouter.getUser, success: { [weak self] (models) in
+        NetworkClient.performRequest([UserModel].self, router: APIRouter.getUser, success: { [] (models) in
             list = models
             authenticationExpectation.fulfill()
-                  }) { [weak self] (error) in
+                  }) { [] (error) in
                     print(error)
                }
 
@@ -64,7 +64,7 @@ class FetchUserTests: XCTestCase {
         let authenticationExpectation = expectation(description: "fetchuser")
         // given
         var posts : [PostModel] = []
-        NetworkClient.performRequest([PostModel].self, router: APIRouter.posts, success: { [weak self] (models) in
+        NetworkClient.performRequest([PostModel].self, router: APIRouter.posts, success: { [] (models) in
             authenticationExpectation.fulfill()
                         if models.count > 0{
                                    for post in models{
@@ -73,7 +73,7 @@ class FetchUserTests: XCTestCase {
                                        }
                                    }
                                }
-                              }) { [weak self] (error) in
+                              }) { [] (error) in
                                 print(error)
                                 XCTAssertFalse(posts.count == 0)
                     }
