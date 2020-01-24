@@ -49,16 +49,6 @@
 		BF57E40A23D9C73F00782302 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E40923D9C73F00782302 /* AlbumsViewController.swift */; };
 		BF57E40D23D9C7FE00782302 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E40B23D9C7FE00782302 /* AlbumTableViewCell.swift */; };
 		BF57E40E23D9C7FE00782302 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF57E40C23D9C7FE00782302 /* AlbumTableViewCell.xib */; };
-		BF57E43B23DB722900782302 /* UINavigationBar_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43123DB722800782302 /* UINavigationBar_Extensions.swift */; };
-		BF57E43C23DB722900782302 /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43223DB722800782302 /* UIView_Extensions.swift */; };
-		BF57E43D23DB722900782302 /* ImageViewerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43323DB722800782302 /* ImageViewerOption.swift */; };
-		BF57E43E23DB722900782302 /* ImageCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43423DB722800782302 /* ImageCarouselViewController.swift */; };
-		BF57E43F23DB722900782302 /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43523DB722800782302 /* ImageViewerController.swift */; };
-		BF57E44023DB722900782302 /* SimpleImageDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43623DB722900782302 /* SimpleImageDatasource.swift */; };
-		BF57E44123DB722900782302 /* RightNavItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43723DB722900782302 /* RightNavItemDelegate.swift */; };
-		BF57E44223DB722900782302 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43823DB722900782302 /* ImageItem.swift */; };
-		BF57E44323DB722900782302 /* ImageViewerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43923DB722900782302 /* ImageViewerTheme.swift */; };
-		BF57E44423DB722900782302 /* UIImageView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57E43A23DB722900782302 /* UIImageView_Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,16 +120,6 @@
 		BF57E40923D9C73F00782302 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		BF57E40B23D9C7FE00782302 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		BF57E40C23D9C7FE00782302 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
-		BF57E43123DB722800782302 /* UINavigationBar_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar_Extensions.swift; sourceTree = "<group>"; };
-		BF57E43223DB722800782302 /* UIView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
-		BF57E43323DB722800782302 /* ImageViewerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerOption.swift; sourceTree = "<group>"; };
-		BF57E43423DB722800782302 /* ImageCarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCarouselViewController.swift; sourceTree = "<group>"; };
-		BF57E43523DB722800782302 /* ImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerController.swift; sourceTree = "<group>"; };
-		BF57E43623DB722900782302 /* SimpleImageDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleImageDatasource.swift; sourceTree = "<group>"; };
-		BF57E43723DB722900782302 /* RightNavItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNavItemDelegate.swift; sourceTree = "<group>"; };
-		BF57E43823DB722900782302 /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
-		BF57E43923DB722900782302 /* ImageViewerTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerTheme.swift; sourceTree = "<group>"; };
-		BF57E43A23DB722900782302 /* UIImageView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_Extensions.swift; sourceTree = "<group>"; };
 		D6D743FD4043164EDD90B59D /* Pods-FetchUserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchUserTests.release.xcconfig"; path = "Target Support Files/Pods-FetchUserTests/Pods-FetchUserTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED6D4A59765F426D5B8BF157 /* Pods-FetchUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchUser.debug.xcconfig"; path = "Target Support Files/Pods-FetchUser/Pods-FetchUser.debug.xcconfig"; sourceTree = "<group>"; };
 		FEFC76C0E70C2DA530A4D8F2 /* Pods_FetchUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,7 +188,6 @@
 		BF57E39723D95E3500782302 /* FetchUser */ = {
 			isa = PBXGroup;
 			children = (
-				BF57E43023DB720100782302 /* Imageviewer */,
 				BF57E3E223D9733A00782302 /* Cell */,
 				BF57E3DD23D96EDE00782302 /* View */,
 				BF57E3D623D96BE900782302 /* Utility */,
@@ -323,23 +302,6 @@
 				BF57E40C23D9C7FE00782302 /* AlbumTableViewCell.xib */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		BF57E43023DB720100782302 /* Imageviewer */ = {
-			isa = PBXGroup;
-			children = (
-				BF57E43423DB722800782302 /* ImageCarouselViewController.swift */,
-				BF57E43823DB722900782302 /* ImageItem.swift */,
-				BF57E43523DB722800782302 /* ImageViewerController.swift */,
-				BF57E43323DB722800782302 /* ImageViewerOption.swift */,
-				BF57E43923DB722900782302 /* ImageViewerTheme.swift */,
-				BF57E43723DB722900782302 /* RightNavItemDelegate.swift */,
-				BF57E43623DB722900782302 /* SimpleImageDatasource.swift */,
-				BF57E43A23DB722900782302 /* UIImageView_Extensions.swift */,
-				BF57E43123DB722800782302 /* UINavigationBar_Extensions.swift */,
-				BF57E43223DB722800782302 /* UIView_Extensions.swift */,
-			);
-			path = Imageviewer;
 			sourceTree = "<group>";
 		};
 		CCF37DA40FF3C50F5ECE4BB1 /* Pods */ = {
@@ -599,30 +561,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF57E43D23DB722900782302 /* ImageViewerOption.swift in Sources */,
-				BF57E44223DB722900782302 /* ImageItem.swift in Sources */,
 				BF57E40A23D9C73F00782302 /* AlbumsViewController.swift in Sources */,
 				BF57E40823D9C10600782302 /* PhotoModel.swift in Sources */,
-				BF57E43C23DB722900782302 /* UIView_Extensions.swift in Sources */,
-				BF57E43B23DB722900782302 /* UINavigationBar_Extensions.swift in Sources */,
 				BF57E3EA23D97B2F00782302 /* UserDetailViewController.swift in Sources */,
 				BF57E40423D9BFA100782302 /* GalleryFlowLayout.swift in Sources */,
 				BF57E3FE23D9BBB200782302 /* PhotosViewController.swift in Sources */,
-				BF57E44323DB722900782302 /* ImageViewerTheme.swift in Sources */,
 				BF57E3F423D9A0F600782302 /* PostModel.swift in Sources */,
 				BF57E3D823D96BFA00782302 /* ControllerIdentifiers.swift in Sources */,
-				BF57E44123DB722900782302 /* RightNavItemDelegate.swift in Sources */,
 				BF57E3D123D9666100782302 /* Constants.swift in Sources */,
 				BF57E3DA23D96CB000782302 /* ExtensionUIApplication.swift in Sources */,
 				BF57E3E823D9737B00782302 /* ExtensionUITableViewCell.swift in Sources */,
 				BF57E3EC23D98C5300782302 /* ExtensionString.swift in Sources */,
-				BF57E44023DB722900782302 /* SimpleImageDatasource.swift in Sources */,
 				BF57E3F623D9AC2700782302 /* CommentsViewController.swift in Sources */,
 				BF57E40D23D9C7FE00782302 /* AlbumTableViewCell.swift in Sources */,
 				BF57E39D23D95E3500782302 /* UsersViewController.swift in Sources */,
 				BF57E3F823D9AD0600782302 /* CommentsModel.swift in Sources */,
 				BF57E3E523D9736300782302 /* UserTableViewCell.swift in Sources */,
-				BF57E44423DB722900782302 /* UIImageView_Extensions.swift in Sources */,
 				BF57E3CF23D9666100782302 /* APIRouter.swift in Sources */,
 				BF57E39923D95E3500782302 /* AppDelegate.swift in Sources */,
 				BF57E3F123D9A04B00782302 /* CommentsTableViewCell.swift in Sources */,
@@ -633,9 +587,7 @@
 				BF57E3EE23D98E3100782302 /* PostsViewController.swift in Sources */,
 				BF57E3D323D966AF00782302 /* UserModel.swift in Sources */,
 				BF57E3D523D96AE600782302 /* BaseViewController.swift in Sources */,
-				BF57E43E23DB722900782302 /* ImageCarouselViewController.swift in Sources */,
 				BF57E3D023D9666100782302 /* NetworkClient.swift in Sources */,
-				BF57E43F23DB722900782302 /* ImageViewerController.swift in Sources */,
 				BF57E40023D9BF7900782302 /* ExtensionUIImage.swift in Sources */,
 				BF57E40623D9C0BE00782302 /* AlbumsModel.swift in Sources */,
 			);

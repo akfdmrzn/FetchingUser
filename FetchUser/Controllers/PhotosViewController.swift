@@ -7,7 +7,8 @@
 //
 
 import UIKit
-//import SDWebImage
+import SDWebImage
+import ImageViewer_swift
 
 class PhotosViewController:UIViewController {
     
