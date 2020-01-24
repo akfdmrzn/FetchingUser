@@ -17,8 +17,8 @@ jobs:
 
     - stage: XCTest
       script:
-        - fastlane scan -s SwiftLint-CITests
+        - fastlane scan -s FetchUserTests
 
     - stage: XCTest
       script:
-        - fastlane scan -s SwiftLint-CIUITests
+        - fastlane scan -s SFetchUserUITests
