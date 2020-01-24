@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import ImageViewer_swift
-import SDWebImage
+//import SDWebImage
 
 class PhotosViewController:UIViewController {
     
@@ -70,7 +69,7 @@ class PhotosViewController:UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Gallery"
-        SDImageCache.shared.clear(with: .all, completion: nil)
+//        SDImageCache.shared.clear(with: .all, completion: nil)
         
         
     }

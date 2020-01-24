@@ -1,5 +1,5 @@
 import UIKit
-import SDWebImage
+//import SDWebImage
 
 protocol ImageViewerControllerDelegate:class {
     func imageViewerDidClose(_ imageViewer: ImageViewerController)
@@ -91,13 +91,14 @@ class ImageViewerController:UIViewController, UIGestureRecognizerDelegate {
             imageView.image = img
             imageView.layoutIfNeeded()
         case .url(let url, let placeholder):
-            imageView.sd_setImage(
-                with: url,
-                placeholderImage: placeholder ?? sourceView?.image,
-                options: [],
-                progress: nil) {[weak self] (img, err, type, url) in
-                    self?.imageView.layoutIfNeeded()
-            }
+            print("")
+//            imageView.sd_setImage(
+//                with: url,
+//                placeholderImage: placeholder ?? sourceView?.image,
+//                options: [],
+//                progress: nil) {[weak self] (img, err, type, url) in
+//                    self?.imageView.layoutIfNeeded()
+//            }
         default:
             break
         }
