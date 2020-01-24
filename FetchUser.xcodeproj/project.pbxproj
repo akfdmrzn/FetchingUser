@@ -281,6 +281,7 @@
 		BF57E3DD23D96EDE00782302 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF57E40323D9BFA100782302 /* GalleryFlowLayout.swift */,
 				BF57E3DE23D9714100782302 /* BackHeaderView.swift */,
 				BF57E3DF23D9714100782302 /* BackHeaderView.xib */,
 			);
@@ -290,7 +291,6 @@
 		BF57E3E223D9733A00782302 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				BF57E40323D9BFA100782302 /* GalleryFlowLayout.swift */,
 				BF57E40123D9BF9500782302 /* ThumbCell.swift */,
 				BF57E3E323D9736300782302 /* UserTableViewCell.swift */,
 				BF57E3E423D9736300782302 /* UserTableViewCell.xib */,

@@ -48,7 +48,6 @@ class UserDetailViewController: BaseViewController {
         self.labelAdressSuite.text = user.address.suite
         self.labelAdressCity.text = user.address.city
         self.labelZipcode.text = user.address.zipcode
-        
         let location = CLLocationCoordinate2D(latitude: self.user?.address.geo.lat.toDouble() ?? 0.0,
                                               longitude: self.user?.address.geo.lng.toDouble() ?? 0.0)
         let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
