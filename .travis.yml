@@ -11,7 +11,7 @@ branches:
 
 before_install:
   - pod install
-  - gem install fastlane --no-ri --no-rdoc --no-document
+  - sudo gem install fastlane -NV
 jobs:
   include:
     - stage: XCTest
