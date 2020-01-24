@@ -7,7 +7,7 @@ branches:
     - master
 
 before_install:
-  - gem install fastlane --no-ri --no-rdoc --no-document
+  - sudo gem install fastlane 
 
 jobs:
   include:
