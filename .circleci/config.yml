@@ -1,0 +1,12 @@
+jobs:
+  build-and-test:
+    macos:
+      xcode: 11.3.0
+    steps:
+      ...
+      - run:
+          name: Run tests
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone 8
+            SCAN_SCHEME: FetchUser
