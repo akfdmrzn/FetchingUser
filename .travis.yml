@@ -1,5 +1,5 @@
-language: swift
-os: osx
-
-git:
-  depth: 1
+jobs:
+  include:
+    - name: Run Unit Tests (iOS, Xcode 10.3)
+      osx_image: xcode10.3
+      script: Scripts/test.sh -s "Nuke" -d "OS=13.3,name=iPhone X" -d "OS=11.4,name=iPhone X" -d "OS=13.3,name=iPhone X"
