@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode11.3
-xcode_workspace: FetchUser/FetchUser.xcworkspace
+xcode_workspace: FetchUser.xcworkspace
 xcode_scheme: FetchUser
 xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone 8
 podfile: FetchUser/Podfile
