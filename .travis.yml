@@ -1,24 +1,35 @@
+# environment setup
 language: swift
 osx_image: xcode11.3
-notifications:
-  email: false
+# caching of dependencies
+cache:
+  bundler: true
+  directories:
+    - Carthage
+# run jobs on changes to master only
 branches:
   only:
     - master
-
+# prepare dependency managers
 before_install:
-  - sudo gem install fastlane 
-
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+# install dependencies
+install:
+  - travis_wait carthage bootstrap --platform iOS --cache-builds
+  - bundle install
+# jobs and stages to run
 jobs:
   include:
-    - stage: FetchUser
+    - stage: "Code validation"
+      name: "Code validation"
       script:
-        - ./Pods/FetchUser/swiftlint --reporter junit
-
-    - stage: XCTest
+        - bundle exec danger
+    - stage: "Test"
+      name: "Unit tests"
       script:
-        - fastlane scan -s FetchUserTests
-
-    - stage: XCTest
+        - bundle exec fastlane FetchUserTests
+    - stage: "Test"
+      name: "UI tests"
       script:
-        - fastlane scan -s SFetchUserUITests
+        - bundle exec fastlane FetchUserUITests
