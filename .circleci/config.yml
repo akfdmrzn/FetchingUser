@@ -1,12 +1,23 @@
+version: 2
 jobs:
   build-and-test:
     macos:
       xcode: 11.3.0
     steps:
-      ...
       - run:
           name: Run tests
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 8
             SCAN_SCHEME: FetchUser
+            
+      - store_test_results:
+          path: output/scan
+      - store_artifacts:
+          path: outpur
+          
+     workflows:
+        version: 2
+        build-and-test:
+           jobs:
+             - build-and-test
