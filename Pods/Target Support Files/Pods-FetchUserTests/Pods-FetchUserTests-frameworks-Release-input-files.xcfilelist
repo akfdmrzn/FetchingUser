@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FetchUserTests/Pods-FetchUserTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ImageViewer.swift/ImageViewer_swift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

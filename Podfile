@@ -11,10 +11,14 @@ target 'FetchUser' do
 
   target 'FetchUserTests' do
     inherit! :search_paths
+    pod "Alamofire"
+    pod 'ImageViewer.swift', '~> 3.0'
     # Pods for testing
   end
 
   target 'FetchUserUITests' do
+    pod "Alamofire"
+    pod 'ImageViewer.swift', '~> 3.0'
     # Pods for testing
   end
 

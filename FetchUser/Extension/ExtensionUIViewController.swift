@@ -19,7 +19,7 @@ extension UIViewController {
         
         let spinnerView = UIView.init(frame: UIScreen.main.bounds)
         spinnerView.backgroundColor = UIColor.init(red: 0.3, green: 0.3, blue: 0.3, alpha: 0.3)
-        let ai = UIActivityIndicatorView.init(style: .large)
+        let ai = UIActivityIndicatorView.init(style: .whiteLarge)
         ai.startAnimating()
         ai.center = spinnerView.center
         
