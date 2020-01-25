@@ -42,6 +42,13 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Pods-FetchUser 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Pods-FetchUser-FetchUserUITests 1 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -56,8 +63,10 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
-		<key>Pods-FetchUser-FetchUserUITests.xcscheme_^#shared#^_</key>
+		<key>Pods-FetchUser-FetchUserUITests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
@@ -67,11 +76,6 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>8</integer>
-		</dict>
-		<key>Pods-FetchUser.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>Pods-FetchUserTests 1.xcscheme</key>
 		<dict>
