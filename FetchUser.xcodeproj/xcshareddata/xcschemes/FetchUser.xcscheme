@@ -20,6 +20,34 @@
                ReferencedContainer = "container:FetchUser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF57E3AA23D95E3900782302"
+               BuildableName = "FetchUserTests.xctest"
+               BlueprintName = "FetchUserTests"
+               ReferencedContainer = "container:FetchUser.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF57E3B523D95E3900782302"
+               BuildableName = "FetchUserUITests.xctest"
+               BlueprintName = "FetchUserUITests"
+               ReferencedContainer = "container:FetchUser.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
