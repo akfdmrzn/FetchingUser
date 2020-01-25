@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -30,7 +31,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ss-t5-HFG">
-                        <rect key="frame" x="70" y="65" width="0.0" height="0.0"/>
+                        <rect key="frame" x="70" y="25" width="0.0" height="0.0"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -53,14 +54,15 @@
                     <constraint firstItem="m5W-3M-WfT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="0Ik-qj-4sn"/>
                     <constraint firstItem="QX3-Tw-aW6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="8Hb-cP-oOv"/>
                     <constraint firstAttribute="bottom" secondItem="FGh-5i-PTU" secondAttribute="bottom" priority="250" constant="5" id="9Sn-91-icz"/>
+                    <constraint firstItem="eL7-H7-lu1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m5W-3M-WfT" secondAttribute="trailing" constant="15" id="CI0-Qy-p82"/>
                     <constraint firstItem="QX3-Tw-aW6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="GVW-IA-TM7"/>
                     <constraint firstItem="FGh-5i-PTU" firstAttribute="leading" secondItem="eL7-H7-lu1" secondAttribute="trailing" constant="7" id="JTE-FP-Ajc"/>
                     <constraint firstItem="0ss-t5-HFG" firstAttribute="leading" secondItem="m5W-3M-WfT" secondAttribute="leading" id="Kw6-hn-i2d"/>
-                    <constraint firstItem="eL7-H7-lu1" firstAttribute="leading" secondItem="0ss-t5-HFG" secondAttribute="trailing" priority="250" constant="15" id="Lz3-ie-81Q"/>
+                    <constraint firstItem="eL7-H7-lu1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0ss-t5-HFG" secondAttribute="trailing" constant="15" id="Lz3-ie-81Q"/>
                     <constraint firstItem="0ss-t5-HFG" firstAttribute="top" secondItem="m5W-3M-WfT" secondAttribute="bottom" priority="250" constant="10" id="QOk-Fb-FyD"/>
                     <constraint firstAttribute="trailing" secondItem="eL7-H7-lu1" secondAttribute="trailing" constant="120" id="TsP-H1-inC"/>
                     <constraint firstItem="m5W-3M-WfT" firstAttribute="leading" secondItem="QX3-Tw-aW6" secondAttribute="trailing" constant="15" id="Ty7-rR-24c"/>
-                    <constraint firstAttribute="bottom" secondItem="0ss-t5-HFG" secondAttribute="bottom" constant="15" id="WG3-jr-1ph"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0ss-t5-HFG" secondAttribute="bottom" constant="15" id="WG3-jr-1ph"/>
                     <constraint firstItem="eL7-H7-lu1" firstAttribute="centerY" secondItem="QX3-Tw-aW6" secondAttribute="centerY" id="nfg-6M-ZzI"/>
                     <constraint firstItem="FGh-5i-PTU" firstAttribute="centerY" secondItem="eL7-H7-lu1" secondAttribute="centerY" id="tYY-ns-rfC"/>
                     <constraint firstAttribute="trailing" secondItem="FGh-5i-PTU" secondAttribute="trailing" constant="7" id="wVZ-wt-qFR"/>

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,7 +25,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoZ-O9-lwE">
-                        <rect key="frame" x="0.0" y="65" width="231" height="20.5"/>
+                        <rect key="frame" x="0.0" y="65" width="231" height="64"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -37,7 +38,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ms-QF-3rn">
-                        <rect key="frame" x="231" y="65" width="231" height="20.5"/>
+                        <rect key="frame" x="231" y="65" width="231" height="64"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -51,7 +52,7 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="1ms-QF-3rn" secondAttribute="bottom" priority="250" constant="15" id="0QJ-jO-5rs"/>
+                    <constraint firstAttribute="bottom" secondItem="1ms-QF-3rn" secondAttribute="bottom" priority="750" constant="15" id="0QJ-jO-5rs"/>
                     <constraint firstItem="SoZ-O9-lwE" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="2Yp-xY-wWx"/>
                     <constraint firstItem="1ms-QF-3rn" firstAttribute="centerY" secondItem="SoZ-O9-lwE" secondAttribute="centerY" id="Dyt-Zr-88l"/>
                     <constraint firstItem="OvG-sn-jGL" firstAttribute="centerX" secondItem="SoZ-O9-lwE" secondAttribute="centerX" id="EPE-tN-e5r"/>

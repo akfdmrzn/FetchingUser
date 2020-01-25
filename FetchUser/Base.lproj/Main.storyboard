@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n74-AJ-D4m">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -59,7 +60,7 @@
                                 <rect key="frame" x="0.0" y="94" width="414" height="768"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pe5-jM-tOs">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="768"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="male" translatesAutoresizingMaskIntoConstraints="NO" id="oJP-II-RB8">
                                                 <rect key="frame" x="187" y="15" width="40" height="40"/>
@@ -201,6 +202,7 @@
                                             <constraint firstItem="aCw-Ly-pEM" firstAttribute="top" secondItem="sjN-XD-lfu" secondAttribute="bottom" constant="10" id="mlu-7K-a85"/>
                                             <constraint firstItem="WhM-hn-8na" firstAttribute="top" secondItem="FHA-ba-dZe" secondAttribute="bottom" constant="10" id="nPx-j1-zRU"/>
                                             <constraint firstItem="OUG-m7-zLI" firstAttribute="leading" secondItem="Wgc-QP-yrB" secondAttribute="trailing" constant="5" id="oGu-Vt-svH"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2PT-SX-t87" secondAttribute="bottom" constant="15" id="x4T-bQ-UVs"/>
                                             <constraint firstItem="Wgc-QP-yrB" firstAttribute="leading" secondItem="aCw-Ly-pEM" secondAttribute="leading" id="y2H-ba-k2Y"/>
                                             <constraint firstItem="2PT-SX-t87" firstAttribute="top" secondItem="5lc-nt-5aO" secondAttribute="bottom" constant="25" id="y9D-kH-fTx"/>
                                             <constraint firstItem="sjN-XD-lfu" firstAttribute="leading" secondItem="oOW-yH-iF4" secondAttribute="leading" id="ybL-Az-oAK"/>
@@ -215,7 +217,6 @@
                                     <constraint firstAttribute="trailing" secondItem="pe5-jM-tOs" secondAttribute="trailing" id="L7O-A4-QOH"/>
                                     <constraint firstItem="pe5-jM-tOs" firstAttribute="top" secondItem="0wi-Dz-vIB" secondAttribute="top" id="PfD-Mg-jbt"/>
                                     <constraint firstItem="pe5-jM-tOs" firstAttribute="leading" secondItem="0wi-Dz-vIB" secondAttribute="leading" id="Y5r-vJ-gsf"/>
-                                    <constraint firstItem="pe5-jM-tOs" firstAttribute="height" secondItem="0wi-Dz-vIB" secondAttribute="height" priority="250" id="pkN-oY-ARh"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="gRc-Qj-dIS"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="FIp-ZH-194"/>
@@ -228,6 +229,7 @@
                             <constraint firstItem="oSS-Hw-UNd" firstAttribute="trailing" secondItem="0wi-Dz-vIB" secondAttribute="trailing" id="9SQ-8M-ug4"/>
                             <constraint firstItem="gfD-Hv-qUb" firstAttribute="top" secondItem="oSS-Hw-UNd" secondAttribute="top" id="Npu-D8-FrP"/>
                             <constraint firstItem="oSS-Hw-UNd" firstAttribute="trailing" secondItem="gfD-Hv-qUb" secondAttribute="trailing" id="bjU-SN-fKp"/>
+                            <constraint firstItem="pe5-jM-tOs" firstAttribute="height" secondItem="S5r-NM-PQz" secondAttribute="height" priority="250" id="kCc-Vi-tMs"/>
                             <constraint firstItem="0wi-Dz-vIB" firstAttribute="leading" secondItem="oSS-Hw-UNd" secondAttribute="leading" id="q8H-mM-0Ty"/>
                             <constraint firstItem="gfD-Hv-qUb" firstAttribute="leading" secondItem="oSS-Hw-UNd" secondAttribute="leading" id="uiv-j5-yGq"/>
                         </constraints>
@@ -355,8 +357,8 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="scv-tO-YyQ">
-                                        <rect key="frame" x="339" y="27.5" width="25" height="15.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="scv-tO-YyQ">
+                                        <rect key="frame" x="339" y="22.5" width="25" height="25"/>
                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="scv-tO-YyQ" secondAttribute="height" multiplier="1:1" id="OEC-Gc-Otu"/>
@@ -367,10 +369,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="lC6-b7-B2J" firstAttribute="leading" secondItem="F8z-GZ-pdx" secondAttribute="leading" constant="40" id="0Qa-7f-hUb"/>
+                                    <constraint firstItem="scv-tO-YyQ" firstAttribute="trailing" secondItem="lC6-b7-B2J" secondAttribute="trailing" constant="-10" id="MnJ-7Y-hNN"/>
                                     <constraint firstItem="scv-tO-YyQ" firstAttribute="centerY" secondItem="lC6-b7-B2J" secondAttribute="centerY" id="NhQ-7F-IdH"/>
                                     <constraint firstAttribute="trailing" secondItem="lC6-b7-B2J" secondAttribute="trailing" constant="40" id="bR1-mm-RE6"/>
                                     <constraint firstAttribute="height" constant="70" id="o5g-VU-tje"/>
-                                    <constraint firstItem="scv-tO-YyQ" firstAttribute="trailing" secondItem="lC6-b7-B2J" secondAttribute="trailing" constant="-10" id="siv-3p-bN1"/>
                                     <constraint firstItem="lC6-b7-B2J" firstAttribute="centerY" secondItem="F8z-GZ-pdx" secondAttribute="centerY" id="uez-M1-ccw"/>
                                 </constraints>
                             </view>
@@ -461,8 +463,8 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Gmu-o6-Qnc">
-                                        <rect key="frame" x="339" y="27.5" width="25" height="15.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="Gmu-o6-Qnc">
+                                        <rect key="frame" x="339" y="22.5" width="25" height="25"/>
                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Gmu-o6-Qnc" secondAttribute="height" multiplier="1:1" id="HEk-4l-BxL"/>
@@ -512,7 +514,7 @@
     </scenes>
     <resources>
         <image name="album" width="32" height="32"/>
-        <image name="chevron.down" catalog="system" width="64" height="36"/>
+        <image name="download" width="32" height="32"/>
         <image name="files-and-folders" width="32" height="32"/>
         <image name="male" width="32" height="32"/>
         <image name="team" width="32" height="32"/>
