@@ -14,10 +14,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FetchUser-FetchUserUITests.xcscheme</key>
+		<key>Pods-FetchUser-FetchUserUITests 1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+		</dict>
+		<key>Pods-FetchUser-FetchUserUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 		</dict>
 		<key>Pods-FetchUser.xcscheme</key>
 		<dict>
